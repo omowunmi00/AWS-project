@@ -6,21 +6,21 @@ click on `create budget`. There are 4 major steps to follow;
 
 > Step 1: Choose your `budget type` and click next.
 
-![Image not found](selectabudgettype.png)
+![Image not found](budgettype.png)
 
 > Step 2: `Set your budget`. Here, there are 3 fields to fill; 
     
     i. Enter your budget details, fill in the "Budget name" field
 
-![Image not found](setyourbudget1.png)
+![Image not found](budget1.png)
 
     ii. Set budget amount, also select recurring if you want the budget to renew on the first day of every monthly biling period 
 
-![Image not found](setyourbudget2.png)
+![Image not found](budget2.png)
 
     iii. scope of budget (Ensure ALL AWS services is selected: this will track any cost incurred from any service from your account). 
 
-![Image not found](setyourbudget3.png)
+![Image not found](budget3.png)
 
 `NOTE`: click advance option and select refunds and credits in addition to the selected charge types.
 
