@@ -34,6 +34,23 @@ To create an IAM user
 
 `IMPORTANT`: *Download .csv file on the next page. This file contain the unique login link of the user created*
 
+## `IAM inline policies`
+
+    Follow steps above to create user but do not set permissions
+    Your review page should look like this
+![image not found](inlinepolicy.png)
+
+   Go back to users and click on the newly created user "Audit". 
+   select the policy tab and click "Add inline policy"
+![image not found](inlinepolicy1.png)
+
+   Select Json and add your custom policy
+   Note: you can search policy up on google/amazon documentry and edit
+![image not found](inlinepolicy2.png)
+
+   Review and create policy
+![image not found](inlinepolicy3.png)
+
 ## `Create Group` 
 
     Select `user groups` from left pane. click create group
