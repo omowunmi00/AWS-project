@@ -40,15 +40,15 @@ To create an IAM user
     Your review page should look like this
 ![image not found](inlinepolicy.png)
 
-   Go back to users and click on the newly created user "Audit". 
-   select the policy tab and click "Add inline policy"
+    Go back to users and click on the newly created user "Audit". 
+    select the policy tab and click "Add inline policy"
 ![image not found](inlinepolicy1.png)
 
-   Select Json and add your custom policy
-   Note: you can search policy up on google/amazon documentry and edit
+    Select Json and add your custom policy
+    Note: you can search policy up on google/amazon documentry and edit
 ![image not found](inlinepolicy2.png)
 
-   Review and create policy
+    Review and create policy
 ![image not found](inlinepolicy3.png)
 
 ## `Create Group` 
