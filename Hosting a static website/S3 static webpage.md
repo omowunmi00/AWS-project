@@ -50,3 +50,4 @@ Google search Read-only permission for annonymous users. copy the policy.
 Additional resources: 
 https://www.youtube.com/watch?v=I-Y0yG27zAM&list=PL3F_GLbU0tgo9WUas0tN5DD9h5aQjFJ_p&index=4
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html#example-bucket-policies-use-case-2
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
