@@ -12,32 +12,32 @@ Download a source code you want from here: https://startbootstrap.com or Google 
 
     search and click  "S3" from management console
     CLick on "Create bucket"
-![image not found](cfbucket01.png)
+![image not found](images/cfbucket01.png)
 
     Fill in the general configuration.Bucket name must be unique.
-![image not found](cfbucket.png)
+![image not found](images/cfbucket.png)
 
     Uncheck block public access (Not recommended)
     Enable encryption (it is a best practice)
     Enable bucket version
-![image not found](cfbucket3.png)
+![image not found](images/cfbucket3.png)
 
     Proceed to "create bucket"
-![image not found](cfbucketsuccess.png)
+![image not found](images/cfbucketsuccess.png)
 
 ## `Upload source code`
 Now we will procced to upload the source code we downloaded earlier into the bucket we just created.
 
     Select your newly created bucket, click upload
-![image not found](codeupload1.png)
+![image not found](images/codeupload1.png)
 
     Drag and drop all downloaded file or upload the folder
     click on "upload"
-![image not found](codeupload2.png)
+![image not found](images/codeupload2.png)
 
     Wait for folder to upload and click close.
-![image not found](codeupload3.png)
-![image not found](codeupload4.png)
+![image not found](images/codeupload3.png)
+![image not found](images/codeupload4.png)
 
 ## `Enable static Website Hosting`
     Go back to the bucket and click on properties tab.
@@ -47,14 +47,14 @@ Now we will procced to upload the source code we downloaded earlier into the buc
     Type in your index document i.e homepage. it is an html extension.
     if the site have an error page, add it to the error document 
     click "save changes"
-![image not found](staticwebhost.png)
+![image not found](images/staticwebhost.png)
 
 You should see the link to your website now. Let me guess, you clicked the link and got an error mesaasge right? Don't worry it is a security measure, now lets troubleshoot that.
-![image not found](staticwebhost2.png)
+![image not found](images/staticwebhost2.png)
 
 ##  Give public access
     Click on the "permissions tab". locate bucket policy and click edit.
-![image not found](staticwebhost3.png)
+![image not found](images/staticwebhost3.png)
 
     Paste your copied policy on policy page and save.
     Remember to replace aws:s3:::DOC-EXAMPLE-BUCKET with your bucket ARN.
@@ -76,11 +76,20 @@ You should see the link to your website now. Let me guess, you clicked the link 
     ]
     }
 
-![image not found](staticwebhost4.png)
+![image not found](images/staticwebhost4.png)
 
     refresh your webpage and viola...
-![image not found](staticwebhost5.png)
+![image not found](images/staticwebhost5.png)
 
+# S3 Versioning
+Allow us have multiple version of a file so we can always recover the file. when a file is deleted in a bucket a delete marker will be placed on it in a version view.
+    Follow steps above to create a static website, ensure to enable bucket versioning. upload a text file.
+    edit the uploaded file and upload again to override the former file
+
+`make the object public`
+
+    locate enable object ownership and select 
+![image not found](images/enableACL.png)
 
 
 **Additional resources**
