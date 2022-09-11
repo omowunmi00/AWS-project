@@ -1,3 +1,4 @@
+# Using Amazon’s unlimited simple storage service (S3) to host a static website where individual web pages include static content.
 S3 is an easy-to-use, scalable, and affordable storage service from Amazon. You can use S3 to store any amount of data for a wide range of use cases. Static website hosting, data archival, and software delivery are a few general scenarios where S3 would be a perfect tool
 S3 a storage service use to store unlimited data. 
 Bucket: This is what i will describe as a father folder, it can consist folders and files. In S3, files are stored in buckets, they are similar to folders on your computer. Every bucket has its own unique name which can be used only once. 
