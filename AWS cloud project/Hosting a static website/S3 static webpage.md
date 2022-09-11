@@ -81,14 +81,15 @@ You should see the link to your website now. Let me guess, you clicked the link 
     refresh your webpage and viola...
 ![image not found](images/staticwebhost5.png)
 
-# S3 Versioning
-Allow us have multiple version of a file so we can always recover the file. when a file is deleted in a bucket a delete marker will be placed on it in a version view.
+
+# `S3 Versioning`
+Allows you have multiple version of a file so you can always recover the file. when a file is deleted in a bucket a delete marker will be placed on it in a version view.
     Follow steps above to create a static website, ensure to enable bucket versioning. upload a text file.
     edit the uploaded file and upload again to override the former file
 
-`make the object public`
+To view  the new uploaded file, `make the object public`
 
-    locate enable object ownership and select 
+    locate enable object ownership and select "ACLs enabled"
 ![image not found](images/enableACL.png)
 
 
